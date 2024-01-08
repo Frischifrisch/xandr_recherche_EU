@@ -42,7 +42,7 @@ def clean_segment_name(name: str):
     Returns:
         cleaned segment name
     """
-    name = str(name).strip().lower()
+    name = name.strip().lower()
 
     # sometimes segment names are enquoted...
     if name[0] == name[-1] == '"':
